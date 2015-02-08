@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -6,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <script type="text/x-handlebars" data-template-name="todos">
     <section id="todoapp">
         <header id="header">
             <h1>todos</h1>
@@ -49,5 +51,15 @@
             </button>
         </footer>
     </section>
+        <footer id="info">
+            <p>Double-click to edit a todo</p>
+        </footer>
+    </script>
+    <script src="js/libs/jquery-1.11.1.min.js"></script>
+    <script src="js/libs/handlebars-v1.3.0.js"></script>
+    <script src="js/libs/ember.js"></script>
+    <script src="js/libs/ember-data.js"></script>
+    <script src="js/application.js"></script>
+    <script src="js/router.js"></script>
 </body>
 </html>
